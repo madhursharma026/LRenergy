@@ -37,7 +37,7 @@ function Header() {
             <Navbar expand="md" className={`mb-3 ${visible ? styles.blackBgNavbar : styles.transparentBgNavbar} fixed-top`}>
                 <Container fluid className='px-md-5 mx-sm-4'>
                     <Link href="/" style={{ textDecoration: "none" }}>
-                        <img src='/Logo.png' alt="#ImgNotFound" width="100px" height="50px" />
+                        <img src='/logo.png' alt="#ImgNotFound" width="100px" height="50px" />
                     </Link>
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
                     <Navbar.Offcanvas id={`offcanvasNavbar-expand-md`} className={`${styles.offcanvasNavbarBg}`} aria-labelledby={`offcanvasNavbarLabel-expand-md`} placement="end">
