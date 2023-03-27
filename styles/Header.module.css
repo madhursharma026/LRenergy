@@ -1,0 +1,33 @@
+.blackBgNavbar {
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    background: transparent;
+}
+
+.transparentBgNavbar {
+    background: #767676;
+}
+
+.offcanvasNavbarBg{
+    background: #767676;
+}
+
+.navbarOptions {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.navbarOptions:hover {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.navbarDropdownOptions {
+    background: transparent;
+    border: 0;
+    font-weight: 500;
+    color: white;
+}
+
+

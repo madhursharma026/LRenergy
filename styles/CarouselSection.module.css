@@ -1,0 +1,140 @@
+.bgOpacity1 {
+    position: relative;
+    background-color: #000;
+}
+
+.bgOpacity1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.9;
+    background: url('../public/section1Img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.content1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.bgOpacity2 {
+    position: relative;
+    background-color: #000;
+}
+
+.bgOpacity2::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.9;
+    background: url('../public/section2Img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.content2 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.bgOpacity3 {
+    position: relative;
+    background-color: #000;
+}
+
+.bgOpacity3::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.9;
+    background: url('../public/section3Img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.content3 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bgOpacity4 {
+    position: relative;
+    background-color: #000;
+}
+
+.bgOpacity4::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    opacity: 0.9;
+    background: url('../public/section4Img.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.content4 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.zoomInOutBox {
+    width: 100%;
+    height: 100vh;
+    background: #18d26e;
+    animation: zoomInOutBox 20s ease infinite;
+}
+
+.textCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.btnStyle {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #18d26e;
+}
+
+.btnStyle:hover {
+    color: #000;
+    background: whitesmoke;
+}
+
+@keyframes zoomInOutBox {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.5, 1.5);
+    }
+
+    100% {
+        transform: scale(1.5, 1.5);
+    }
+}
