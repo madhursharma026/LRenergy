@@ -7,7 +7,7 @@ function Contact() {
         <>
             <div style={{ background: '#F7F7F7' }}>
                 <div className="container">
-                    <div className="row p-5 text-center">
+                    <div className="row p-sm-5 p-3 text-center">
                         <h1>
                             GO GREEN FOR ALL YOUR ENERGY NEEDS!
                         </h1>

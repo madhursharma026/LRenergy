@@ -55,34 +55,6 @@
     min-height: 300px;
 }
 
-.bgSection {
-    position: relative;
-    background-color: #000;
-    /* opacity: 0.3; */
-}
-
-.bgSection::before {
-    content: '';
-    display: block;
-    position: absolute;
-    background-image: url("https://images.unsplash.com/photo-1491677533189-49af044391ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80");
-    background-attachment: fixed, scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    min-height: 500px;
-    width: 100%;
-    color: black;
-    text-align: center;
-    display: table;
-}
-
-.bgSectionContent {
-    position: relative;
-    width: 100%;
-    min-height: 500px;
-}
-
 .imgStyle {
     transition: transform .5s;
 }
@@ -93,38 +65,3 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 1200px) {
-    .bgSection::before {
-        min-height: 750px;
-        height: 75vh;
-    }
-
-    .bgSectionContent {
-        min-height: 750px;
-        height: 75vh;
-    }
-}
-
-@media (max-width: 992px) {
-    .bgSection::before {
-        min-height: 750px;
-        height: 90vh;
-    }
-
-    .bgSectionContent {
-        min-height: 750px;
-        height: 90vh;
-    }
-}
-
-@media (max-width: 768px) {
-    .bgSection::before {
-        min-height: 750px;
-        height: 100vh;
-    }
-
-    .bgSectionContent {
-        min-height: 750px;
-        height: 100vh;
-    }
-}

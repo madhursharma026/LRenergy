@@ -154,24 +154,26 @@ function Homepage() {
                 <SolarCalculatorSection />
             </div>
 
-            <div class={`${styles.bgSection} mt-5`}></div>
-            <div class={`container ${styles.bgSectionContent} text-center`}>
-                <div className="row p-sm-5 p-3">
-                    <div className="col-xl-6">
-                        <p className={`${styles.paragraph} text-white`}>
-                            L R Energy is the upcoming name in the renewable energy market in India. Building on
-                            the increased solar energy awareness and adoption for residential and business
-                            purposes, L R Energy looks forward to transform the solar energy coverage across the
-                            country with highly advanced and professional solar energy distribution, and aims to be
-                            a leader in solar energy.
-                            L R Energy is a team of people passionate for solar energy, with EPC experience of
-                            over 200 MW in India and overseas, competent to provide end-to-end solar solutions
-                            under one roof. We are in the process of setting up a 25 MW Solar Grid Connect Power
-                            Plant.
-                        </p>
-                    </div>
-                    <div className="col-xl-6">
-                        <iframe width="100%" height="100%" style={{ minHeight: '400px' }} src="https://www.youtube.com/embed/LonBK2hrW8k" title="LR Energy 12 MW Solar Power Plant Sirsa, Haryana, India" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div style={{ background: '#18d26e' }}>
+                <div class={`${styles.bgSection} mt-5`}></div>
+                <div class={`container ${styles.bgSectionContent} text-center`}>
+                    <div className="row p-sm-5 p-3">
+                        <div className="col-xl-6">
+                            <p className={`${styles.paragraph} text-white`}>
+                                L R Energy is the upcoming name in the renewable energy market in India. Building on
+                                the increased solar energy awareness and adoption for residential and business
+                                purposes, L R Energy looks forward to transform the solar energy coverage across the
+                                country with highly advanced and professional solar energy distribution, and aims to be
+                                a leader in solar energy.
+                                L R Energy is a team of people passionate for solar energy, with EPC experience of
+                                over 200 MW in India and overseas, competent to provide end-to-end solar solutions
+                                under one roof. We are in the process of setting up a 25 MW Solar Grid Connect Power
+                                Plant.
+                            </p>
+                        </div>
+                        <div className="col-xl-6">
+                            <iframe width="100%" height="100%" style={{ minHeight: '400px' }} src="https://www.youtube.com/embed/LonBK2hrW8k" title="LR Energy 12 MW Solar Power Plant Sirsa, Haryana, India" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
