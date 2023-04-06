@@ -51,7 +51,7 @@ function CarbonCalculatorSection() {
                     <div>
                         <div>
                             <h1 className="fw-semibold mb-5 text-center mt-2">
-                                <u className={`${styles.mainHeading}`}>Carbon Calculator</u>
+                                <u className={`${styles.mainHeading}`} style={{ fontSize: 'calc(6vw + 1.5rem)' }}>Carbon Calculator</u>
                             </h1>
                             <form onSubmit={(e) => submitCalculateForm(e)}>
                                 <label for="electricity" className="form-label">Electricity <b>at a factor of <input type="number" required value={factorOfElectricityQty} onChange={(e) => setFactorOfElectricityQty(e.target.value)} style={{ width: "70px" }} /> kgCO<sub>2e</sub>/kWh</b></label>

@@ -5,7 +5,7 @@ function Contact() {
 
     return (
         <>
-            <div style={{ background: '#F7F7F7' }}>
+            <div className="mt-5" style={{ background: '#F7F7F7' }}>
                 <div className="container">
                     <div className="row p-sm-5 p-3 text-center">
                         <h1>

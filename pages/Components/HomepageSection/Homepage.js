@@ -5,12 +5,6 @@ import * as React from "react";
 import OurTeam from "../OurTeam";
 import OurProjects from "../OurProject";
 import Contact from "../Contact/Contact";
-// import agriImg from "../../media/agriImg.png";
-// import solarImg from "../../media/solarImg.png";
-// import bioGasImg from "../../media/bioGasImg.png";
-// import ourVisionImg from "../../media/ourVisionImg.jpg";
-// import ourValuesImg from "../../media/ourValuesImg.jpg";
-// import ourMissionImg from "../../media/ourMissionImg.jpg";
 import styles from "../../../styles/Homepage/Homepage.module.css";
 import SolarCalculatorSection from "../SolarCalculatorSection/SolarCalculatorSection";
 import CarbonCalculatorSection from "../CarbonCalculatorSection/CarbonCalculatorSection";
@@ -20,55 +14,64 @@ function Homepage() {
     return (
         <>
             <div className="container mt-5">
-                <div className="text-center">
-                    <div className={`${styles.mainHeading}`}>
-                        About Us
+                <div>
+                    <div className={`row ${styles.content}`}>
+                        <div className={`col-lg-7 ${styles.contentSide}`}>
+                            <div className={`${styles.contentSideHeading}`} style={{ fontSize: "calc(6vw + 1.5rem)", fontWeight: "500", lineHeight: "1em", }}>
+                                About Us
+                            </div>
+                            <p className={`${styles.contentSideParagraph} mt-3`} style={{ fontSize: "calc(0.95vw + 1rem)", fontWeight: "500", lineHeight: "calc(0.95vw + 1rem)", }}>
+                                LR Energy is India’s leading generator of renewable energy with a proven track record in delivering high performance cost competitive solar photovoltaic plants and economic biogas production to the market. The company is dedicated to promoting environmental, economic, and social sustainability with clean energy offerings for today and our future generations. In today’s world of climbing fossil fuel prices, approaching the peak oil supply limit, and discussions of global warming, Paris Agreement- our aim is to improve the quality of life and promote sustainable development throughout the nation by looking for new opportunities across multiple regulatory regimes.
+                            </p>
+                            <Link href="/aboutus" className={`${styles.btnStyle} ${styles.contentSideBtn} mt-4`} style={{ textDecoration: 'none' }}>More About Us</Link>
+                        </div>
+                        <div className={`col-lg-5 ${styles.imageSide}`} style={{ margin: "auto" }}>
+                            <img src="https://sunrix.co.in/wp-content/uploads/2019/11/bdb6d217af1dc43bd022cb8168715234.gif" alt="#ImgNotFound" className="w-100" />
+                            {/* <img src="../../../factBg.jpg" alt="#ImgNotFound" className="w-100" /> */}
+                        </div>
                     </div>
-                    <p className={`${styles.paragraph}`}>
-                        LR Energy is India’s leading generator of renewable energy with a proven track record in delivering high performance cost competitive solar photovoltaic plants and economic biogas production to the market. The company is dedicated to promoting environmental, economic, and social sustainability with clean energy offerings for today and our future generations. In today’s world of climbing fossil fuel prices, approaching the peak oil supply limit, and discussions of global warming, Paris Agreement- our aim is to improve the quality of life and promote sustainable development throughout the nation by looking for new opportunities across multiple regulatory regimes.
-                    </p>
-                    <button type="button" class={`btn ${styles.btnStyle} mt-4`}>More About Us</button>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-md-4 mt-3">
-                        <div class="card h-100" style={{ overflow: "hidden" }}>
-                            {/* <img src={ourMissionImg.src} class={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" /> */}
-                            <img src='../../../ourMissionImg.jpg' class={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" />
-                            <div class="card-body">
-                                <h4 className="text-center">
-                                    <b>Our Mission</b>
-                                </h4>
-                                <p class="card-text">Powering change by ensuring that we become a leader in the low carbon industry. Through LR Energy, we will build a culture that allows our people to integrate sustainability into every part of our day-to-day operations.</p>
+                    <div className={`col-lg-4 ${styles.colStyle1}`}>
+                        <div class="card" style={{ overflow: "hidden" }}>
+                            <div className={`${styles.block} ${styles.imgStyle}`} style={{ backgroundImage: "url(https://l-renergy.vercel.app/ourMissionImg.jpg)", minHeight: '400px', width: '100%', }}>
+                                <div class={`${styles.centered} p-3`}>
+                                    <h1 className="text-center">Our Mission</h1>
+                                    <h5 style={{ textAlign: 'justify' }}>
+                                        Powering change by ensuring that we become a leader in the low carbon industry. Through LR Energy, we will build a culture that allows our people to integrate sustainability into every part of our day-to-day operations.
+                                    </h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mt-3">
-                        <div class="card h-100" style={{ overflow: "hidden" }}>
-                            {/* <img src={ourValuesImg.src} class={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" /> */}
-                            <img src='../../../ourValuesImg.jpg' class={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" />
-                            <div class="card-body">
-                                <h4 className="text-center">
-                                    <b>Our Values</b>
-                                </h4>
-                                <p class="card-text">Help each other become effective, Integrity in our day-to-day working, Driving excellence and Be ethical.</p>
+                    <div className={`col-lg-4 ${styles.colStyle2}`}>
+                        <div class="card" style={{ overflow: "hidden" }}>
+                            <div className={`${styles.block} ${styles.imgStyle}`} style={{ backgroundImage: "url(https://l-renergy.vercel.app/ourValuesImg.jpg)", minHeight: '400px', width: '100%', }}>
+                                <div class={`${styles.centered} p-3`}>
+                                    <h1 className="text-center">Our Mission</h1>
+                                    <h5 style={{ textAlign: 'justify' }}>
+                                        Help each other become effective, Integrity in our day-to-day working, Driving excellence and Be ethical.
+                                    </h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 mt-3">
-                        <div class="card h-100" style={{ overflow: "hidden" }}>
-                            {/* <img src={ourVisionImg.src} class={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" /> */}
-                            <img src='../../../ourVisionImg.jpg' class={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" />
-                            <div class="card-body">
-                                <h4 className="text-center">
-                                    <b>Our Vision</b>
-                                </h4>
-                                <p class="card-text">To build the best renewable energy company by providing clean, green and secure energy for the benefit of the environment and our communities.</p>
+                    <div className={`col-lg-4 ${styles.colStyle3}`}>
+                        <div class="card" style={{ overflow: "hidden" }}>
+                            <div className={`${styles.block} ${styles.imgStyle}`} style={{ backgroundImage: "url(https://l-renergy.vercel.app/ourVisionImg.jpg)", minHeight: '400px', width: '100%', }}>
+                                <div class={`${styles.centered} p-3`}>
+                                    <h1 className="text-center">Our Mission</h1>
+                                    <h5 style={{ textAlign: 'justify' }}>
+                                        To build the best renewable energy company by providing clean, green and secure energy for the benefit of the environment and our communities.
+                                    </h5>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="text-center mt-5 pt-md-5">
-                    <div className={`${styles.mainHeading}`}>
+                    <div className={`${styles.mainHeading}`} style={{ fontSize: 'calc(6vw + 1.5rem)' }}>
                         SERVICES
                     </div>
                     <p className={`${styles.paragraph}`}>
@@ -117,33 +120,39 @@ function Homepage() {
 
             <div class={`${styles.section} mt-5`}></div>
             <div class={`container ${styles.content1} text-center`}>
-                <div className={`${styles.mainHeading} pt-4`}>
-                    FACTS
-                </div>
                 <div className="row">
-                    <div className="col-lg-3 col-6 mt-4">
-                        <h1 style={{ color: '#18d26e' }}>
-                            <b>2</b>
-                        </h1>
-                        <p class="card-text"><b>PROJECTS</b></p>
+                    <div className="col-md-4" style={{ margin: 'auto' }}>
+                        <div className={`${styles.mainHeading} pt-4`} style={{ fontSize: 'calc(6vw + 1.5rem)' }}>
+                            FACTS
+                        </div>
                     </div>
-                    <div className="col-lg-3 col-6 mt-4">
-                        <h1 style={{ color: '#18d26e' }}>
-                            <b>36</b>
-                        </h1>
-                        <p class="card-text"><b>CAPACITY (MW)</b></p>
-                    </div>
-                    <div className="col-lg-3 col-6 mt-4">
-                        <h1 style={{ color: '#18d26e' }}>
-                            <b>62370</b>
-                        </h1>
-                        <p class="card-text"><b>MWh PRODUCED</b></p>
-                    </div>
-                    <div className="col-lg-3 col-6 mt-4">
-                        <h1 style={{ color: '#18d26e' }}>
-                            <b>68040</b>
-                        </h1>
-                        <p class="card-text"><b>CO2 Saved (Tons)</b></p>
+                    <div className="col-md-8">
+                        <div className="row">
+                            <div className="col-6 mt-4">
+                                <h1 style={{ color: '#18d26e' }}>
+                                    <b>2</b>
+                                </h1>
+                                <p class="card-text"><b>PROJECTS</b></p>
+                            </div>
+                            <div className="col-6 mt-4">
+                                <h1 style={{ color: '#18d26e' }}>
+                                    <b>36</b>
+                                </h1>
+                                <p class="card-text"><b>CAPACITY (MW)</b></p>
+                            </div>
+                            <div className="col-6 mt-4">
+                                <h1 style={{ color: '#18d26e' }}>
+                                    <b>62370</b>
+                                </h1>
+                                <p class="card-text"><b>MWh PRODUCED</b></p>
+                            </div>
+                            <div className="col-6 mt-4">
+                                <h1 style={{ color: '#18d26e' }}>
+                                    <b>68040</b>
+                                </h1>
+                                <p class="card-text"><b>CO2 Saved (Tons)</b></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -154,7 +163,7 @@ function Homepage() {
                 <SolarCalculatorSection />
             </div>
 
-            <div style={{ background: '#18d26e' }}>
+            <div className="mt-5" style={{ background: '#18d26e', border: '20px solid #767676' }}>
                 <div class={`${styles.bgSection} mt-5`}></div>
                 <div class={`container ${styles.bgSectionContent} text-center`}>
                     <div className="row p-sm-5 p-3">

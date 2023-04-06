@@ -25,7 +25,7 @@ function SolarCalculatorSection() {
                 <div>
                     <div>
                         <h1 className="fw-semibold mb-5 text-center mt-2">
-                            <u className={`${styles.mainHeading}`}>Solar Calculator</u>
+                            <u className={`${styles.mainHeading}`} style={{ fontSize: 'calc(6vw + 1.5rem)' }}>Solar Calculator</u>
                         </h1>
                         <form onSubmit={(e) => submitCalculateForm(e)}>
                             <label for="solarPanelCapacity" className="form-label"> Solar Panel Capacity you want to install</label>

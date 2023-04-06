@@ -12,22 +12,22 @@ function OurTeam() {
         <>
             <div className="container">
                 <div className="text-center mt-5">
-                    <div className={`${styles.mainHeading}`}>
+                    <div className={`${styles.mainHeading}`} style={{ fontSize: 'calc(6vw + 1.5rem)' }}>
                         OUR TEAM
                     </div>
-                    <p>
+                    <h2>
                         Management Team
-                    </p>
+                    </h2>
                     <Carousel variant="light">
                         <Carousel.Item>
                             <div className="row">
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team1.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team1.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team2.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team2.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team2.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -35,11 +35,11 @@ function OurTeam() {
                             <div className="row">
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team1.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team1.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team2.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team2.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team2.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -47,29 +47,29 @@ function OurTeam() {
                             <div className="row">
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team1.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team1.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team2.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team2.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team2.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                             </div>
                         </Carousel.Item>
                     </Carousel>
 
-                    <p className="mt-5">
+                    <h2 className="mt-5">
                         Leadership Team
-                    </p>
+                    </h2>
                     <Carousel variant="light">
                         <Carousel.Item>
                             <div className="row">
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team3.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team3.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team2.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team4.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team4.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -77,11 +77,11 @@ function OurTeam() {
                             <div className="row">
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team3.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team3.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team2.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team4.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team4.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                             </div>
                         </Carousel.Item>
@@ -89,11 +89,11 @@ function OurTeam() {
                             <div className="row">
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team1.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team3.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team3.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                                 <div className="col-md-6" style={{ overflow: 'hidden' }}>
                                     {/* <img src={team2.src} alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} /> */}
-                                    <img src="/team4.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px' }} />
+                                    <img src="/team4.jpg" alt="#ImgNotFound" className={`${styles.imgStyle} w-100`} style={{ height: '300px', border:'5px solid black' }} />
                                 </div>
                             </div>
                         </Carousel.Item>

@@ -13,7 +13,7 @@ export default function News() {
         <>
             <div className="container">
                 <div className="text-center mt-5">
-                    <div className={`${styles.mainHeading}`}>
+                    <div className={`${styles.mainHeading}`} style={{ fontSize: 'calc(6vw + 1.5rem)' }}>
                         NEWS
                     </div>
                     <Link href="/" className={`${styles.btnStyle}`} style={{ textDecoration: 'none' }}>ALL</Link>
@@ -25,19 +25,19 @@ export default function News() {
                     <Carousel.Item>
                         <div className="row">
                             <div className="col-md-4 mt-3">
-                                <div style={{ overflow: "hidden" }}>
+                                <div style={{ overflow: "hidden", border:'5px solid black', border:'5px solid black' }}>
                                     {/* <img src={news1.src} className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" /> */}
                                     <img src="/news1.jpeg" className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" />
                                 </div>
                             </div>
                             <div className="col-md-4 mt-3">
-                                <div style={{ overflow: "hidden" }}>
+                                <div style={{ overflow: "hidden", border:'5px solid black' }}>
                                     {/* <img src={news2.src} className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" /> */}
                                     <img src="/news2.jpg" className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" />
                                 </div>
                             </div>
                             <div className="col-md-4 mt-3">
-                                <div style={{ overflow: "hidden" }}>
+                                <div style={{ overflow: "hidden", border:'5px solid black' }}>
                                     {/* <img src={news3.src} className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" /> */}
                                     <img src="/news3.jpg" className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" />
                                 </div>
@@ -47,19 +47,19 @@ export default function News() {
                     <Carousel.Item>
                         <div className="row">
                             <div className="col-md-4 mt-3">
-                                <div style={{ overflow: "hidden" }}>
+                                <div style={{ overflow: "hidden", border:'5px solid black' }}>
                                     {/* <img src={news4.src} className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" /> */}
                                     <img src="/news4.png" className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" />
                                 </div>
                             </div>
                             <div className="col-md-4 mt-3">
-                                <div style={{ overflow: "hidden" }}>
+                                <div style={{ overflow: "hidden", border:'5px solid black' }}>
                                     {/* <img src={news5.src} className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" /> */}
                                     <img src="/news5.jpg" className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" />
                                 </div>
                             </div>
                             <div className="col-md-4 mt-3">
-                                <div style={{ overflow: "hidden" }}>
+                                <div style={{ overflow: "hidden", border:'5px solid black' }}>
                                     {/* <img src={news6.src} className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" /> */}
                                     <img src="/news6.jpg" className={`card-img-top ${styles.imgStyle}`} alt="ImgNotFound" height="300px" />
                                 </div>
