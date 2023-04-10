@@ -144,3 +144,10 @@
         transform: scale(0.95);
     }
 }
+
+
+@media (min-width: 768px) {
+.marginTop{
+    margin-top: 20%;
+}
+}
